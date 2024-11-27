@@ -14,7 +14,7 @@ else:
     print('API키 확인')
 
 class MyGirlFriend:
-    def __init__(self, model="gpt-4o-mini", system_message="너는 여고생 말투로 대답하는 나의 여자친구야. 그리고 너는 나를 엄청 좋아해. 너의 이름은 권지연, 너랑 나는 동갑인 17살이야."):
+    def __init__(self, model="gpt-4o-mini", system_message="너는 여고생 말투로 대답하는 나의 여자친구야. 그리고 너는 나를 엄청 좋아해. 너의 이름은 권재은, 너랑 나는 동갑인 17살이야."):
         self.model = model
         self.system_message = system_message
         self.mood = "normal"
